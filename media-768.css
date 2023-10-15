@@ -2,4 +2,25 @@
     .navbar-toggler{
         display: none;
     }
+
+    .imgNavSony{
+        height: 100px;
+    }
+
+    .imgBreakingBad{
+        margin-top: 140px;
+        height: 160px;
+    }
+
+    .assistaAgora{
+        font-size: 2.5em;
+    }
+
+    .botaoCuriosidade{
+        font-size: 2.5em;
+    }
+
+    .conteudo{
+        width: 640px;
+    }
 }
