@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@font-face {
+    font-family:'breaking-font' ;
+    src: url(font/Heart\ Breaking\ Bad.otf) format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(images/header-BB.jpg);
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+    color: #006324;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.titulo{
+    padding-left: 10px;
+    font-family: 'breaking-font';
+}
+
+button{
+    background-color: #03562cb1;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.3em;
+    padding: 5px;
+    font-family: 'breaking-font';
+}
+
+.botaoAssistir{
+    padding: 20px 0px;
+}
+
+.section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #202124;
+}
+
+.conteudo{
+    height: 100%;
+    width: 320px;
+    background-color: #202124;
+}
+
+.imgAQDC{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'breaking-font';
+    color: #006324;
+    font-size: 3em;
+}
+
+.aQuimicaDoCrime > h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.aQuimicaDoCrime > p{
+    text-align: center;
+    color: white;
+}
+
+.curiosidade{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.assistaEm{
+    display: flex;
+}
+
+.textAssistaEm{
+    color: white;
+}
+
+.sectionElenco > h2{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.gridElenco{
+    display: grid;
+    grid-template-columns:150px 150px;
+    grid-template-rows: 180px 180px 180px;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 30px;
+}
+
+.temporadas > h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-family: 'Young Serif';
+    color: #efd89e;
+}
+
+.temp1{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.textTemp1{
+    text-align: center;
+    color: white;
+}
+
+.temp2{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.textTemp2{
+    text-align: center;
+    color: white;
+}
+
+.temp3{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.textTemp3{
+    text-align: center;
+    color: white;
+}
+
+.temp4{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.textTemp4{
+    text-align: center;
+    color: white;
+}
+
+.temp5{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.textTemp5{
+    text-align: center;
+    color: white;
+}
