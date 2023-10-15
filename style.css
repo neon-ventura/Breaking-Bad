@@ -186,3 +186,22 @@ h3{
     text-align: center;
     color: white;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    background-color: #06491f;
+    color: white;
+}
+
+.textFooter p{
+    text-align: center;
+    padding: 20px;
+}
+
+.credito{
+    background-color: #06491f;
+}
