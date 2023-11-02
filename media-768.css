@@ -1,8 +1,10 @@
 @media  screen and (min-width: 768px) {
-    .navbar-toggler{
-        display: none;
-    }
 
+    .navbar-toggler{
+        height: 60px;
+        width: 60px;
+    }
+    
     .imgNavSony{
         height: 100px;
     }
@@ -16,11 +18,103 @@
         font-size: 2.5em;
     }
 
-    .botaoCuriosidade{
+    .divImgAQDC{
+        display: flex;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    #imgAQDC{
+        height: 170px;
+        padding: 10px;
+    }
+
+    h2{
+        font-size: 5em;
+    }
+
+    .sectionAQDC{
+        display: flex;
+    }
+
+    .aQuimicaDoCrime{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aQuimicaDoCrime h2{
         font-size: 2.5em;
+        padding: 0px;
+    }
+
+    .pAQDCMedia{
+        display: block;
+        font-size: 1.2em;
+    }
+
+    .pAQDC{
+        display:none;
+    }
+
+    .botaoCuriosidade{
+        font-size: 2em;
+        
+    }
+
+    .imgAssistaEm{
+        height: 300px;
+    }
+
+    .textAssistaEm p{
+        font-size: 1.5em;
+    }
+
+    .imgAssistaEm2{
+        display: block;
+        height: 300px;
+    }
+
+    .gridElenco{
+        display: grid;
+        grid-template-columns:250px 250px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: center;
+        justify-items: center;
+        padding-top: 30px;
+    }
+
+    .imgElenco{
+        height: 250px;
+    }
+
+    .temporadas{
+        display: none;
+    }
+
+
+    .temporadasMediaTablet{
+        display: block;
+    }
+
+    .temporadasMediaTablet h2{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .temporadasAllBlocks{
+        display: flex;
+    }
+
+    .temporadasMediaTablet p{
+        color: white;
+    }
+
+    .tempMediaTablet{
+        display: flex;
     }
 
     .conteudo{
-        width: 640px;
+        width: 700px;
     }
 }

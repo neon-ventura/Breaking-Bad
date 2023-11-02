@@ -23,27 +23,8 @@ header{
     justify-content: space-between;
 }
 
-.nav-list{
-    display: flex;
+.offcanvas-title{
     color: #006324;
-}
-
-.nav-list ul {
-    display: flex;
-    list-style: none;
-}
-
-.nav-item{
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-.mobile-menu-icon{
-    display: none;
-}
-
-.mobile-menu{
-    display: none;
 }
 
 .titulo{
@@ -82,10 +63,14 @@ button{
     border: 1px solid white;
 }
 
-.imgAQDC{
+.divImgAQDC{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+}
+
+#imgAQDC{
+    height: 100px;
 }
 
 h2{
@@ -104,6 +89,10 @@ h2{
     color: white;
 }
 
+.pAQDCMedia{
+    display: none;
+}
+
 .curiosidade{
     display: flex;
     justify-content: center;
@@ -112,6 +101,14 @@ h2{
 
 .assistaEm{
     display: flex;
+}
+
+.imgAssistaEm{
+    height: 200px;
+}
+
+.imgAssistaEm2{
+    display: none;
 }
 
 .textAssistaEm{
@@ -130,6 +127,10 @@ h2{
     justify-content: center;
     justify-items: center;
     padding-top: 30px;
+}
+
+.imgElenco{
+    height: 150px;
 }
 
 .temporadas > h2{
@@ -190,6 +191,10 @@ h3{
 .textTemp5{
     text-align: center;
     color: white;
+}
+
+.temporadasMediaTablet{
+    display: none;
 }
 
 .footer{

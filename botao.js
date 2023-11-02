@@ -12,9 +12,5 @@ document.addEventListener('click', (e) =>{
         
         window.open('https://pt.wikipedia.org/wiki/Breaking_Bad', '_blank')
     }
-
-    if (e.target.classList.contains('nav-link')) {
-        window.open('https://pt.wikipedia.org/wiki/Breaking_Bad', '_blank')
-    }
 })
 
