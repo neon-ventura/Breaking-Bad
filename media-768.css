@@ -112,6 +112,7 @@
 
     .tempMediaTablet{
         display: flex;
+        padding: 10px;
     }
 
     .conteudo{
