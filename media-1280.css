@@ -1,0 +1,14 @@
+@media screen and (min-width: 1280px) {
+    .titulo{
+        padding-top: 200px;
+    }
+
+    .imgBreakingBad{
+        height: 250px;
+    }
+
+    .botaoAssistir{
+        font-size: 1.5em;
+        padding-top: 80px;
+    }
+}
