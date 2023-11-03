@@ -119,6 +119,20 @@ h2{
     text-align: center;
 }
 
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.mostrar {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2s;
+}
+
 .gridElenco{
     display: grid;
     grid-template-columns:150px 150px;
